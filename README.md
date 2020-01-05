@@ -3,7 +3,7 @@ Anket hazırlama ve anket yapma projesidir
 
 ## Veritabanı Tabloları
 
-### ANKETLER
+### Anketler Tablosu
 - anket_id
 - Anket Adı
 - Anket Giriş Metni
@@ -12,7 +12,7 @@ Anket hazırlama ve anket yapma projesidir
 - Anket Teşekkür Metni
 - Durum (1: Aktif, 0: Pasif)
 
-### SORULAR
+### Sorular Tablosu
 - soru_id
 - anket_id
 - soru_kökü
@@ -23,4 +23,21 @@ Anket hazırlama ve anket yapma projesidir
 - cevap2
 - cevap3
 - cevap4
-- doğru_cevap
+
+### Verilen Cevaplar Tablosu
+- denek_id
+- anket_id
+- soru_id
+- verilen_cevap
+
+### Katılım Anahtarı Tablosu
+- anket_id
+- katılım_anahtarı
+- kullanılma_zamani
+
+# Ekranlar
+- Anket Yönetimi
+- Soru Yönetimi
+- Anahtar Yönetimi
+- Sonuç Raporları
+
