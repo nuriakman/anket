@@ -1,5 +1,5 @@
 # Anket Projesi
-Anket hazırlama ve anket yapma projesidir.
+Anket hazırlama ve anket yapma projesidir
 
 ## Veritabanı Tabloları
 
